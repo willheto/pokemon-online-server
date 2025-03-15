@@ -1,0 +1,122 @@
+[
+  {
+    "npcIndex": 1,
+    "name": "Rival",
+    "spriteName": "rival",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 2,
+    "name": "Mom",
+    "spriteName": "woman",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 3,
+    "name": "Woman",
+    "spriteName": "woman",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 4,
+    "name": "Man",
+    "spriteName": "man1",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 5,
+    "name": "Prof. Elm",
+    "spriteName": "elm",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 6,
+    "name": "Boy",
+    "spriteName": "boy_1",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 7,
+    "name": "Boy",
+    "spriteName": "boy_2",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 8,
+    "name": "Man",
+    "spriteName": "man1",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 9,
+    "name": "Officer",
+    "spriteName": "officer_1",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 10,
+    "name": "Boy",
+    "spriteName": "boy_2",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 11,
+    "name": "Staff",
+    "spriteName": "pokemon_center_staff",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 12,
+    "name": "Man",
+    "spriteName": "man1",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 13,
+    "name": "Woman",
+    "spriteName": "woman",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 14,
+    "name": "Gentleman",
+    "spriteName": "gentleman",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 15,
+    "name": "Boy",
+    "spriteName": "boy_2",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 16,
+    "name": "Old man",
+    "spriteName": "oldman",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 17,
+    "name": "Woman",
+    "spriteName": "woman",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 18,
+    "name": "Girl",
+    "spriteName": "woman",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 19,
+    "name": "Boy",
+    "spriteName": "boy_2",
+    "isTalkable": true
+  },
+  {
+    "npcIndex": 20,
+    "name": "Elite Four Will",
+    "spriteName": "elite_four_will",
+    "isTalkable": true
+  }
+]

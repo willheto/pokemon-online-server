@@ -1,0 +1,147 @@
+[
+  {
+    "name": "New bark town",
+    "music": "new_bark_town.ogg",
+    "topLeftTile": {
+      "x": 220,
+      "y": 180
+    },
+    "bottomRightTile": {
+      "x": 258,
+      "y": 212
+    }
+  },
+  {
+    "name": "Players house",
+    "music": "new_bark_town.ogg",
+    "topLeftTile": {
+      "x": 112,
+      "y": 312
+    },
+    "bottomRightTile": {
+      "x": 169,
+      "y": 330
+    }
+  },
+
+  {
+    "name": "New bark town houses",
+    "music": "new_bark_town.ogg",
+    "topLeftTile": {
+      "x": 227,
+      "y": 311
+    },
+    "bottomRightTile": {
+      "x": 228,
+      "y": 331
+    }
+  },
+  {
+    "name": "Route 29",
+    "music": "route_29.ogg",
+    "topLeftTile": {
+      "x": 104,
+      "y": 180
+    },
+    "bottomRightTile": {
+      "x": 219,
+      "y": 222
+    }
+  },
+  {
+    "name": "Route 29 connector to 46",
+    "music": "route_29.ogg",
+    "topLeftTile": {
+      "x": 309,
+      "y": 313
+    },
+    "bottomRightTile": {
+      "x": 330,
+      "y": 330
+    }
+  },
+  {
+    "name": "Route 29 connecting to route 46",
+    "music": "route_29.ogg",
+    "topLeftTile": {
+      "x": 142,
+      "y": 145
+    },
+    "bottomRightTile": {
+      "x": 174,
+      "y": 175
+    }
+  },
+  {
+    "name": "Elms lab",
+    "music": "elms_lab.ogg",
+    "topLeftTile": {
+      "x": 190,
+      "y": 314
+    },
+    "bottomRightTile": {
+      "x": 209,
+      "y": 337
+    }
+  },
+  {
+    "name": "Cherrygrove city",
+    "music": "cherrygrove_city.ogg",
+    "topLeftTile": {
+      "x": 24,
+      "y": 176
+    },
+    "bottomRightTile": {
+      "x": 103,
+      "y": 211
+    }
+  },
+  {
+    "name": "Cherrygrove city house 1 from right",
+    "music": "cherrygrove_city.ogg",
+    "topLeftTile": {
+      "x": 190,
+      "y": 360
+    },
+    "bottomRightTile": {
+      "x": 205,
+      "y": 375
+    }
+  },
+  {
+    "name": "Cherrygrove city house 2 from right",
+    "music": "cherrygrove_city.ogg",
+    "topLeftTile": {
+      "x": 150,
+      "y": 360
+    },
+    "bottomRightTile": {
+      "x": 165,
+      "y": 375
+    }
+  },
+  {
+    "name": "Cherrygrove city house 3 from right",
+    "music": "cherrygrove_city.ogg",
+    "topLeftTile": {
+      "x": 114,
+      "y": 360
+    },
+    "bottomRightTile": {
+      "x": 129,
+      "y": 375
+    }
+  },
+  {
+    "name": "Pokemon center",
+    "music": "pokemon_center.ogg",
+    "topLeftTile": {
+      "x": 230,
+      "y": 360
+    },
+    "bottomRightTile": {
+      "x": 249,
+      "y": 375
+    }
+  }
+]

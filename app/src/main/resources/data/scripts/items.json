@@ -1,0 +1,34 @@
+[
+  {
+    "itemID": 1,
+    "name": "Pokéball - Cyndaquil",
+    "examine": "Contains the fire Pokémon Cyndaquil.",
+    "isStackable": false,
+    "spriteName": "pokeball.png",
+    "value": 20
+  },
+  {
+    "itemID": 2,
+    "name": "Pokéball - Totodile",
+    "examine": "Contains the water Pokémon Totodile.",
+    "isStackable": false,
+    "spriteName": "pokeball.png",
+    "value": 20
+  },
+  {
+    "itemID": 3,
+    "name": "Pokéball - Chikorita",
+    "examine": "Contains the grass Pokémon Chikorita.",
+    "isStackable": false,
+    "spriteName": "pokeball.png",
+    "value": 20
+  },
+  {
+    "itemID": 4,
+    "name": "Pokéball",
+    "examine": "A device for catching wild Pokémon.",
+    "isStackable": false,
+    "spriteName": "pokeball.png",
+    "value": 20
+  }
+]
