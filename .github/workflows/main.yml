@@ -35,10 +35,10 @@ jobs:
 
       - name: Remove old build artifacts
         run: |
-          sshpass -p ${{ secrets.SERVER_PASSWORD }} ssh -o StrictHostKeyChecking=no ${{ secrets.SERVER_IP }} 'sudo rm -rf /var/www/game-server/*'
+          sshpass -p '${{ secrets.SERVER_PASSWORD }}' ssh -o StrictHostKeyChecking=no ${{ secrets.SERVER_IP }} 'sudo rm -rf /var/www/game-server/*'
 
       - name: Transfer the JAR file
         run: |
           set -e
           JAR_FILE=$(find app/build/libs -name "*.jar" | head -n 1)
-          sshpass -p ${{ secrets.SERVER_PASSWORD }}  scp -o StrictHostKeyChecking=no "$JAR_FILE" ${{ secrets.SERVER_IP }}:/var/www/game-server/
+          sshpass -p '${{ secrets.SERVER_PASSWORD }}'  scp -o StrictHostKeyChecking=no "$JAR_FILE" ${{ secrets.SERVER_IP }}:/var/www/game-server/
