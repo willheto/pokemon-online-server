@@ -20,7 +20,6 @@ import com.g8e.gameserver.models.ChatMessage;
 import com.g8e.gameserver.models.entities.Player;
 import com.g8e.gameserver.models.events.SoundEvent;
 import com.g8e.gameserver.models.events.TalkEvent;
-import com.g8e.gameserver.models.pokemon.Pokemon;
 import com.g8e.gameserver.network.actions.Action;
 import com.g8e.gameserver.network.actions.HealPokemonAction;
 import com.g8e.gameserver.network.actions.chat.ChatMessageAction;
@@ -90,23 +89,14 @@ public class WebSocketEventsHandler {
 
             DBPokemon[] party = (DBPokemon[]) CommonQueries.getPlayersPartyByPlayerId(playerID);
 
-            Pokemon xatu40 = new Pokemon(178, 40);
-            Pokemon jynx = new Pokemon(124, 41);
-            Pokemon exeggutor = new Pokemon(103, 42);
-            Pokemon slowbro = new Pokemon(80, 43);
-            Pokemon xatu42 = new Pokemon(178, 42);
-            playerToBeAdded.addPokemonToParty(xatu40);
-            playerToBeAdded.addPokemonToParty(jynx);
-            playerToBeAdded.addPokemonToParty(exeggutor);
-            playerToBeAdded.addPokemonToParty(slowbro);
-            playerToBeAdded.addPokemonToParty(xatu42);
-
-            /*for (DBPokemon dbPokemon : party) {
-                if (dbPokemon != null) {
-                    Pokemon pokemon = new Pokemon(dbPokemon);
-                    playerToBeAdded.addPokemonToParty(pokemon);
-                }
-            }*/
+            /*
+             * for (DBPokemon dbPokemon : party) {
+             * if (dbPokemon != null) {
+             * Pokemon pokemon = new Pokemon(dbPokemon);
+             * playerToBeAdded.addPokemonToParty(pokemon);
+             * }
+             * }
+             */
 
             // Add players party
 
