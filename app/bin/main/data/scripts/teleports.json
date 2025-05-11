@@ -1,0 +1,552 @@
+[
+  {
+    "description": "Players house F2->F1",
+    "triggerTiles": [
+      {
+        "x": 166,
+        "y": 315
+      }
+    ],
+    "destinationTile": {
+      "x": 132,
+      "y": 316
+    },
+    "sfx": "stairs",
+    "facingDirectionAfterTeleport": "DOWN",
+    "isInstant": true
+  },
+  {
+    "description": "Players house F1->F2",
+    "triggerTiles": [
+      {
+        "x": 132,
+        "y": 315
+      }
+    ],
+    "destinationTile": {
+      "x": 166,
+      "y": 316
+    },
+    "sfx": "stairs",
+    "facingDirectionAfterTeleport": "DOWN",
+    "isInstant": true
+  },
+  {
+    "description": "Out of players house",
+    "triggerTiles": [
+      {
+        "x": 126,
+        "y": 329
+      },
+      {
+        "x": 127,
+        "y": 329
+      },
+      {
+        "x": 128,
+        "y": 329
+      },
+      {
+        "x": 129,
+        "y": 329
+      }
+    ],
+    "destinationTile": {
+      "x": 248,
+      "y": 193
+    },
+    "sfx": "stairs",
+    "facingDirectionAfterTeleport": "DOWN",
+    "isInstant": true
+  },
+  {
+    "description": "Into players house",
+    "triggerTiles": [
+      {
+        "x": 248,
+        "y": 191
+      }
+    ],
+    "destinationTile": {
+      "x": 127,
+      "y": 328
+    },
+    "sfx": "stairs",
+    "facingDirectionAfterTeleport": "UP",
+    "isInstant": true
+  },
+  {
+    "description": "Into elms lab",
+    "triggerTiles": [
+      {
+        "x": 234,
+        "y": 187
+      }
+    ],
+    "destinationTile": {
+      "x": 199,
+      "y": 336
+    },
+    "sfx": "",
+    "facingDirectionAfterTeleport": "UP",
+    "isInstant": true
+  },
+  {
+    "description": "Out of elms lab",
+    "triggerTiles": [
+      {
+        "x": 198,
+        "y": 337
+      },
+      {
+        "x": 199,
+        "y": 337
+      },
+      {
+        "x": 200,
+        "y": 337
+      },
+      {
+        "x": 201,
+        "y": 337
+      }
+    ],
+    "destinationTile": {
+      "x": 234,
+      "y": 189
+    },
+    "sfx": "",
+    "facingDirectionAfterTeleport": "DOWN",
+    "isInstant": true
+  },
+
+  {
+    "description": "Into woman's house in new bark town",
+    "triggerTiles": [
+      {
+        "x": 228,
+        "y": 203
+      }
+    ],
+    "destinationTile": {
+      "x": 235,
+      "y": 328
+    },
+    "sfx": "",
+    "facingDirectionAfterTeleport": "UP",
+    "isInstant": true
+  },
+  {
+    "description": "Out of woman's house in new bark town",
+    "triggerTiles": [
+      {
+        "x": 234,
+        "y": 329
+      },
+      {
+        "x": 235,
+        "y": 329
+      },
+      {
+        "x": 236,
+        "y": 329
+      },
+      {
+        "x": 237,
+        "y": 329
+      }
+    ],
+    "destinationTile": {
+      "x": 228,
+      "y": 205
+    },
+    "sfx": "",
+    "facingDirectionAfterTeleport": "DOWN",
+    "isInstant": true
+  },
+  {
+    "description": "Into elsm house",
+    "triggerTiles": [
+      {
+        "x": 244,
+        "y": 207
+      }
+    ],
+    "destinationTile": {
+      "x": 275,
+      "y": 328
+    },
+    "sfx": "",
+    "facingDirectionAfterTeleport": "UP",
+    "isInstant": true
+  },
+  {
+    "description": "Out of elms house",
+    "triggerTiles": [
+      {
+        "x": 274,
+        "y": 329
+      },
+      {
+        "x": 275,
+        "y": 329
+      },
+      {
+        "x": 276,
+        "y": 329
+      },
+      {
+        "x": 277,
+        "y": 329
+      }
+    ],
+    "destinationTile": {
+      "x": 244,
+      "y": 209
+    },
+    "sfx": "",
+    "facingDirectionAfterTeleport": "DOWN",
+    "isInstant": true
+  },
+  {
+    "description": "Wandering to route 29 withouth a pokemon",
+    "triggerTiles": [
+      {
+        "x": 222,
+        "y": 197
+      },
+      {
+        "x": 222,
+        "y": 199
+      }
+    ],
+    "destinationTile": {
+      "x": 232,
+      "y": 197
+    },
+    "sfx": "",
+    "facingDirectionAfterTeleport": "RIGHT",
+    "isInstant": false
+  },
+  {
+    "description": "Route 29 to route 46 middlepoint",
+    "triggerTiles": [
+      {
+        "x": 156,
+        "y": 183
+      }
+    ],
+    "destinationTile": {
+      "x": 319,
+      "y": 328
+    },
+    "sfx": "",
+    "facingDirectionAfterTeleport": "UP",
+    "isInstant": true
+  },
+  {
+    "description": "From route 46 middlepoint to route 29",
+    "triggerTiles": [
+      {
+        "x": 318,
+        "y": 329
+      },
+      {
+        "x": 319,
+        "y": 329
+      },
+      {
+        "x": 320,
+        "y": 329
+      },
+      {
+        "x": 321,
+        "y": 329
+      }
+    ],
+    "destinationTile": {
+      "x": 156,
+      "y": 185
+    },
+    "sfx": "",
+    "facingDirectionAfterTeleport": "DOWN",
+    "isInstant": true
+  },
+  {
+    "description": "From route 29 middlepoint to route 46",
+    "triggerTiles": [
+      {
+        "x": 318,
+        "y": 315
+      },
+      {
+        "x": 319,
+        "y": 315
+      },
+      {
+        "x": 320,
+        "y": 315
+      },
+      {
+        "x": 321,
+        "y": 315
+      }
+    ],
+    "destinationTile": {
+      "x": 157,
+      "y": 174
+    },
+    "sfx": "",
+    "facingDirectionAfterTeleport": "UP",
+    "isInstant": true
+  },
+
+  {
+    "description": "From route 46 middlepoint to route 29",
+    "triggerTiles": [
+      {
+        "x": 156,
+        "y": 175
+      },
+      {
+        "x": 157,
+        "y": 175
+      },
+      {
+        "x": 158,
+        "y": 175
+      },
+      {
+        "x": 159,
+        "y": 175
+      }
+    ],
+    "destinationTile": {
+      "x": 319,
+      "y": 317
+    },
+    "sfx": "",
+    "facingDirectionAfterTeleport": "DOWN",
+    "isInstant": true
+  },
+  {
+    "description": "Cherrygrove city, into pkmn center",
+    "triggerTiles": [
+      {
+        "x": 80,
+        "y": 187
+      }
+    ],
+    "destinationTile": {
+      "x": 237,
+      "y": 374
+    },
+    "sfx": "door",
+    "facingDirectionAfterTeleport": "UP",
+    "isInstant": true
+  },
+  {
+    "description": "Cherrygrove city, out of pkmn center",
+    "triggerTiles": [
+      {
+        "x": 236,
+        "y": 375
+      },
+      {
+        "x": 237,
+        "y": 375
+      },
+      {
+        "x": 238,
+        "y": 375
+      },
+      {
+        "x": 239,
+        "y": 375
+      }
+    ],
+    "destinationTile": {
+      "x": 80,
+      "y": 189
+    },
+    "sfx": "door",
+    "facingDirectionAfterTeleport": "DOWN",
+    "isInstant": true
+  },
+  {
+    "description": "Cherrygrove city, into mart",
+    "triggerTiles": [
+      {
+        "x": 68,
+        "y": 187
+      }
+    ],
+    "destinationTile": {
+      "x": 277,
+      "y": 374
+    },
+    "sfx": "door",
+    "facingDirectionAfterTeleport": "UP",
+    "isInstant": true
+  },
+  {
+    "description": "Cherrygrove city, out of mart",
+    "triggerTiles": [
+      {
+        "x": 276,
+        "y": 375
+      },
+      {
+        "x": 277,
+        "y": 375
+      },
+      {
+        "x": 278,
+        "y": 375
+      },
+      {
+        "x": 279,
+        "y": 375
+      }
+    ],
+    "destinationTile": {
+      "x": 68,
+      "y": 189
+    },
+    "sfx": "door",
+    "facingDirectionAfterTeleport": "DOWN",
+    "isInstant": true
+  },
+  {
+    "description": "Cherrygrove city, into npc house first from right",
+    "triggerTiles": [
+      {
+        "x": 84,
+        "y": 203
+      }
+    ],
+    "destinationTile": {
+      "x": 195,
+      "y": 374
+    },
+    "sfx": "door",
+    "facingDirectionAfterTeleport": "UP",
+    "isInstant": true
+  },
+  {
+    "description": "Cherrygrove city, out of npc house first from right",
+    "triggerTiles": [
+      {
+        "x": 194,
+        "y": 375
+      },
+      {
+        "x": 195,
+        "y": 375
+      },
+      {
+        "x": 196,
+        "y": 375
+      },
+      {
+        "x": 197,
+        "y": 375
+      }
+    ],
+    "destinationTile": {
+      "x": 84,
+      "y": 205
+    },
+    "sfx": "door",
+    "facingDirectionAfterTeleport": "DOWN",
+    "isInstant": true
+  },
+  {
+    "description": "Cherrygrove city, into npc house second from right",
+    "triggerTiles": [
+      {
+        "x": 72,
+        "y": 199
+      }
+    ],
+    "destinationTile": {
+      "x": 155,
+      "y": 374
+    },
+    "sfx": "door",
+    "facingDirectionAfterTeleport": "UP",
+    "isInstant": true
+  },
+  {
+    "description": "Cherrygrove city, out of npc house second from right",
+    "triggerTiles": [
+      {
+        "x": 154,
+        "y": 375
+      },
+      {
+        "x": 155,
+        "y": 375
+      },
+      {
+        "x": 156,
+        "y": 375
+      },
+      {
+        "x": 157,
+        "y": 375
+      }
+    ],
+    "destinationTile": {
+      "x": 72,
+      "y": 201
+    },
+    "sfx": "door",
+    "facingDirectionAfterTeleport": "DOWN",
+    "isInstant": true
+  },
+  {
+    "description": "Cherrygrove city, into npc house third from right",
+    "triggerTiles": [
+      {
+        "x": 56,
+        "y": 195
+      }
+    ],
+    "destinationTile": {
+      "x": 119,
+      "y": 374
+    },
+    "sfx": "door",
+    "facingDirectionAfterTeleport": "UP",
+    "isInstant": true
+  },
+  {
+    "description": "Cherrygrove city, out of npc house thirdfrom right",
+    "triggerTiles": [
+      {
+        "x": 118,
+        "y": 375
+      },
+      {
+        "x": 119,
+        "y": 375
+      },
+      {
+        "x": 120,
+        "y": 375
+      },
+      {
+        "x": 121,
+        "y": 375
+      }
+    ],
+    "destinationTile": {
+      "x": 56,
+      "y": 197
+    },
+    "sfx": "door",
+    "facingDirectionAfterTeleport": "DOWN",
+    "isInstant": true
+  }
+]

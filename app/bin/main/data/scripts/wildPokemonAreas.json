@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Route 29",
+    "topLeftTile": {
+      "x": 104,
+      "y": 180
+    },
+    "bottomRightTile": {
+      "x": 219,
+      "y": 222
+    },
+    "pokemon": [
+      {
+        "name": "Pidgey",
+        "rate": 55,
+        "min": 2,
+        "max": 4
+      },
+      {
+        "name": "Rattata",
+        "rate": 5,
+        "min": 4,
+        "max": 4
+      },
+      {
+        "name": "Sentret",
+        "rate": 40,
+        "min": 2,
+        "max": 3
+      }
+    ]
+  },
+  {
+    "name": "Route 29 connecting to route 46",
+    "topLeftTile": {
+      "x": 142,
+      "y": 145
+    },
+    "bottomRightTile": {
+      "x": 174,
+      "y": 175
+    },
+    "pokemon": [
+      {
+        "name": "Rattata",
+        "rate": 20,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "name": "Spearow",
+        "rate": 35,
+        "min": 2,
+        "max": 3
+      },
+      {
+        "name": "Jigglypuff",
+        "rate": 5,
+        "min": 3,
+        "max": 5
+      },
+      {
+        "name": "Geodude",
+        "rate": 40,
+        "min": 2,
+        "max": 3
+      }
+    ]
+  }
+]
